@@ -9,9 +9,16 @@ public static class SceneMenu
         OpenScene("Menu");
     }
 
+    [MenuItem("Scenes/Game")]
     public static void OpenGame()
     {
         OpenScene("Game");
+    }
+
+    [MenuItem("Scenes/GameTwo")]
+    public static void OpenGameTwo()
+    {
+        OpenScene("GameTwo");
     }
 
     private static void OpenScene(string sceneName)
